@@ -1,0 +1,115 @@
+'''print("Hiii")
+print("Hi")
+print("Hello")
+print("ok")'''
+
+
+#Integer-->int
+'''a=10
+b=20
+c=a+b
+print(c)
+print(type(c))
+#float
+a=1.5
+print(type(a))
+#complex
+b=5+4j
+print(type(b))
+#bool
+c=True
+print(type(c))
+#str
+x="Anu"
+print(type(x))
+y="@$%^&*"
+print(type(y))'''
+
+#User-input
+'''a=int(input("Enter a:"))
+b=20
+c=a+b
+print(c)
+
+a=float(input("Enter a:"))
+b=20
+c=a+b
+print(a)
+print(c)'''
+
+#Operators
+#Arithmetic operator
+'''a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print("Add:",a+b)
+print("Sub:",a-b)
+print("Multi:",a*b)
+print("Division:",a/b)
+print("Modulas:",a%b)
+print("Floor division:",a//b)
+print("Expo:",a**b)'''
+
+#Find the last digit
+'''a=int(input("Enter a:"))
+b=a%10
+print("Last digit:",b)
+
+#Remove the last 2 digit
+a=int(input("Enter a:"))
+b=a//100
+print("Remove:",b)'''
+
+#Comparison
+'''a=int(input("Enter a:"))
+b=int(input("Enter b:"))
+print(a==b)
+print(a!=b)
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)'''
+
+#Logical-->and,or,not
+'''x=5
+y=2
+#and
+print(x>10 and y<5)
+print(x>=5 and y<5)
+#or
+print(x>10 or y<5)
+#not
+print(not(y!=2))
+print(not(y==2))'''
+
+#Assignment
+'''a=5
+a+=2
+a-=3
+a*=4
+a/=2
+print(a)'''
+
+#Speacial operator
+#identify operator-->is,is not
+'''a=[3,7]
+b=a
+c=[3,7]
+print(a is b)
+print(a is c)
+print(a is not c)
+
+#Membership operator-->in,not in
+x=["Hii","Hello","Okk"]
+print("Hii" in x)
+print("Hiiii" in x)
+print("Hiiii" not in x)'''
+
+#Bitwise
+a=5
+b=3
+print("&:",a&b)
+print("|:",a|b)
+print("^:",a^b)
+print("~a:",~a)
+print("~b:",~b)
+
