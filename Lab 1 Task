@@ -1,0 +1,125 @@
+### 1\. Arithmetic Operators
+
+Operators: `+`, `-`, `*`, `/`, `//`, `%`, `**`
+
+* Get two numbers from the user and perform addition.
+
+* Find the difference between two numbers.
+
+* Calculate the product of two numbers.
+
+* Divide two numbers and display the quotient.
+
+* Find the floor division of two numbers.
+
+* Find the remainder of two numbers.
+
+* Find the square of a number using the power operator.
+
+* Calculate the total and average of 5 subject marks.
+
+Find the last 2 digit of a number--121793
+
+Remove the last 3 digit ----157390
+
+### 2\. Assignment Operators
+
+Operators: `=`, `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`
+
+* Assign your name to a variable and display it.
+
+* Assign 100 to a variable and add 50 using `+=`.
+
+* Subtract 20 from a balance using `-=`.
+
+* Multiply a number by 5 using `*=`.
+
+* Divide a number by 2 using `/=`.
+
+* Find the remainder using `%=`.
+
+* Calculate the square of a number using `**=`.
+
+### 3\. Comparison Operators
+
+Operators: `==`, `!=`, `>`, `<`, `>=`, `<=`
+
+* Get two numbers and check whether they are equal.
+
+* Check whether two numbers are not equal.
+
+* Find the biggest of two numbers.
+
+* Check whether a student is eligible for voting (age 18 or above).
+
+* Check whether a student passed (mark 35 or above).
+
+* Check whether a number is between 1 and 100.
+
+### 4\. Logical Operators
+
+Operators: `and`, `or`, `not`
+
+* Check whether a number is positive and even.
+
+* Check whether a person is eligible for voting (age 18 or above) and has an ID.
+
+* Check whether a student passed in at least one of two subjects.
+
+* Check whether a number is between 10 and 50.
+
+* Use `not` to check whether a number is not equal to zero.
+
+### 5\. Membership Operators
+
+Operators: `in`, `not in`
+
+* Check whether the letter 'a' is present in a name.
+
+* Check whether Python is present in a list of programming languages.
+
+* Check whether a particular number exists in a list.
+
+* Check whether a character is not present in a string.
+
+### 6\. Identity Operators
+
+Operators: `is`, `is not`
+
+* Create two variables with the same value and compare them using `is`.
+
+* Create two lists with the same values and check their identity.
+
+* Create two variables referring to the same list and check using `is`.
+
+* Check whether two variables are not referring to the same object.
+
+### 7\. Bitwise Operators
+
+Operators: `&`, `|`, `^`, `~`
+
+* Perform bitwise AND on 10 and 5.
+
+* Perform bitwise OR on 10 and 5.
+
+* Perform bitwise XOR on 10 and 5.
+
+* Find the bitwise complement of 5.
+
+### 8\. Real-time mini tasks
+
+These are useful for interview preparation.
+
+* Student Result: Get name and 5 subject marks. Calculate total, average and pass/fail.
+
+* Electricity Bill: Get units consumed and calculate the bill using a given per-unit rate.
+
+* Shopping: Get product price and quantity. Calculate total amount and discount.
+
+* Voting Eligibility: Get age and check eligibility.
+
+* Login Validation: Check whether username and password match predefined values.
+
+* Even or Odd: Check whether a number is even or odd using `%`.
+
+* Number Comparison: Get three numbers and find the largest.
