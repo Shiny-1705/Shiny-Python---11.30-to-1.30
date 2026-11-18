@@ -1,0 +1,192 @@
+#if
+'''a=int(input("Enter a:"))
+if a>10:
+    print("Okkk")
+else:
+    print("Cant")'''
+
+#Even or odd
+'''a=int(input("Enter a:"))
+if a%2==0:
+    print("Even")
+else:
+    print("Odd")
+'''
+
+#positive or negative
+'''a=int(input("Enter a:"))
+if a>0:
+    print("Positive")
+elif a<0:
+    print("Negative")
+else:
+    print("Zero")
+'''
+#Days of the week
+'''w=int(input("Enter the no:"))
+if w==1:
+    print("Sunday")
+elif w==2:
+    print("Monday")
+elif w==3:
+    print("Tuesday")
+elif w==4:
+    print("Wednesday")
+else:
+    print("Check the number")
+'''
+#Divisible by 5 or 3
+'''n=int(input("Enter the no:"))
+if n%3==0:
+    print("Divisible by 3")
+elif n%5==0:
+    print("Divisible by 5")
+else:
+    print("Not divisible")
+'''
+#nested if-else
+'''f=str(input("Enter the food:"))
+p=int(input("Enter the price:"))
+if f=="Biriyani" or f=="Naan":
+    print("Food ordered")
+    if p<=500:
+        print("Ordered successfully")
+    else:
+        print("Price is too high")
+else:
+    print("Food not found")
+'''
+#
+'''
+age=int(input("enter the age:"))
+citizen=str(input("Citizen:"))
+if age<=18:
+    print("Age checked")
+    if citizen=True:
+        print("Citizen")
+    else:
+        print("Other citizen")
+else:
+    print("Under age")
+'''
+
+#Username and password
+'''u=str(input("Enter the username:"))
+p=str(input("Enter the password:"))
+if u=="Deepak" and p=="deepak123":
+    print("Login successful")
+else:
+    print("Unsuccessful")
+'''
+#for
+#increment
+#start+stop+step
+'''for i in range(1,6,1):
+    print(i)
+#only stop value
+for i in range(6):
+    print(i)
+#Skipping of 2 nos
+for i in range(0,6,2):
+    print(i)'''
+
+#Tables
+'''n=int(input("Enter n:"))
+for i in range(1,6):
+    print(i,'x',n,'=',i*n)
+'''
+
+#for+if
+#Print the even numbers from 1 to 20
+'''for i in range(1,21):
+    if i%2==0:
+        print(i)'''
+
+#Decrement
+'''for i in range(5,0,-1):
+    print(i)'''
+
+#String
+'''a="Badriga"
+for i in a:
+    print(i)'''
+
+'''a="Badriga"
+for i in a:
+    if i=='r':
+        print("Okk")
+    print(i)
+'''
+
+#factorial
+'''n=int(input("Enter n:"))
+f=1
+for i in range(1,n+1):
+    f*=i
+print("Factorial:",f)
+'''
+#Sum of digits
+'''n=int(input("Enter n:"))
+s=0
+for i in range(1,n+1):
+    s+=i
+print("Sum:",s)
+'''
+#
+'''for i in range(5):
+    print("Hello")'''
+
+#Nested
+#5x5
+'''for i in range(5):
+    for j in range(3):
+        print('*',end="  ")
+    print()'''
+
+#right angled triangle
+'''for i in range(1,6):
+    for j in range(i):
+        print('*',end="  ")
+    print()'''
+
+#Inverted triangle
+'''for i in range(5,0,-1):
+    for j in range(i):
+        print('*',end="  ")
+    print()'''
+
+#
+'''for i in range(1,6):
+    for j in range(6):
+        if i==5 or i==6 and j==0 or j==6:
+            print('+',end=" ")
+        else:
+            print(' ',end="")
+    print()'''
+
+#Small to capital-->-32,Capital to small--->+32
+'''a="deepak"
+for i in a:
+    print(chr(ord(i)-32))'''
+
+'''for i in range(65,70):
+    print(chr(i))'''
+
+#Remove duplicate
+'''text = "programming"
+result = ""
+for ch in text:
+    if ch not in result:
+        result = result + ch
+print(result)'''
+
+
+
+
+
+
+
+
+
+
+
