@@ -1,0 +1,161 @@
+ Part 1: Selection Control Flow
+
+1\. Electricity Bill
+
+Get the units consumed from the user.
+
+* 0–100 units → ₹2 per unit
+
+* 101–200 units → ₹3 per unit
+
+* Above 200 units → ₹5 per unit
+
+Calculate and display the total bill.
+
+2\. Largest of Three Numbers
+
+Get 3 numbers from the user and find the largest number using `if-elif-else`. Don't use `max()`.
+
+3\. Grade Calculator
+
+Get 5 subject marks and calculate the total and average.
+
+* Average 90 and above → Grade A
+
+* Average 80 and above → Grade B
+
+* Average 70 and above → Grade C
+
+* Average 60 and above → Grade D
+
+* Below 60 → Fail
+
+4\. ATM Withdrawal
+
+Get the balance and withdrawal amount.
+
+* Check whether the withdrawal amount is divisible by 100.
+
+* Check whether sufficient balance is available.
+
+* If valid, deduct the amount and display the remaining balance.
+
+5\. Triangle Type
+
+Get 3 side values.
+
+* Check if a valid triangle can be formed.
+
+* If valid, identify Equilateral, Isosceles or Scalene.
+
+
+### Part 2: For Loop – Increment & Decrement
+
+6\. Multiples with Conditions
+
+Print numbers from 1 to 100.
+
+* Multiples of 3 → print `"Python"`
+
+* Multiples of 5 → print `"Java"`
+
+* Multiples of both → print `"Python Java"`
+
+* Others → print the number
+
+7\. Prime Numbers
+
+Get a number from the user and print all even numbers from 1 to that number 
+
+8\. Odd Numbers 
+
+Get a number from the user and print all odd numbers from 1 to 50.
+
+9\. Multiplication Table
+
+Get a number from the user and print its multiplication table from 1 to 10.
+
+10\. Digit Sum
+
+Get a number and calculate the sum of its digits using a `for` loop.
+
+11\. Count Vowels and Consonants
+
+Get a string from the user and count vowels and consonants using a `for` loop.
+
+### Part 3: Nested For Loop
+
+12\. Hollow Square
+
+Print the following pattern:
+
+```text
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+```
+
+13\. Number Triangle
+
+```text
+1
+12
+123
+1234
+12345
+```
+
+14\. Inverted Number Triangle
+
+
+
+### Part 4: String & ASCII
+
+16\. Uppercase to Lowercase Without `upper()`
+
+Get a lowercase string and convert each character to uppercase using `ord()` and `chr()`.
+
+17\. Count Character Occurrences
+
+Get a string and a character from the user. Count how many times that character occurs.
+
+Example:
+
+```text
+Input: programming
+Character: g
+Output: 2
+```
+
+18\. Remove Duplicate Characters
+
+Get a string and remove duplicate characters without using `set()`.
+
+Example:
+
+```text
+Input: programming
+Output: progamin
+```
+
+19\. Reverse a String Without Slicing
+
+Get a string and print it in reverse using a decrementing loop.
+
+
+Star Pattern 
+
+Check whether a number is equal to the sum of the factorials of its digits.(1,4,5)
+
+
+Login System
+
+* Set a username and password.
+
+* Allow only 3 attempts using a `for` loop.
+
+* If credentials are correct, print `"Login Successful"` and stop.
+
+* If all attempts fail, print `"Account Locked"`.
