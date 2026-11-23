@@ -1,0 +1,155 @@
+# Single word
+# a="Hello"
+# print(a[0:3:1])
+# print(a[3])
+# print(a[0:6:2])
+# print(a[::-1])
+# print(a[:-1])
+# print(a[-1])
+# print(a[1::2])
+# print(a[::2])
+
+#List of words
+# a=["Deepak","Hari","Keerthi","Rajan","Badriga"]
+# print(a[0:3:1])
+# print(a[3])
+# print(a[0:6:2])
+# print(a[::-1])
+# print(a[:-1])
+# print(a[-1])
+# print(a[1::2])
+# print(a[::2])
+
+#List
+# a=[1,5,3,6,1,5]
+# print(a)
+# print(type(a))
+# # Append
+# a.append(10)
+# print(a)
+# #extend
+# a.extend([56,62,33])
+# print(a)
+# #remove
+# a.remove(62)
+# print(a)
+# # a.remove(60)---->Value error
+# # print(a)
+# #copy
+# b=a.copy()
+# print("b:",b)
+# #sort-->Ascending order
+# a.sort()
+# print(a)
+# #reverse
+# a.reverse()
+# print(a)
+# #clear+append
+# # a.clear()
+# # print(a)
+# # a.append(4)
+# # print(a)
+# #pop
+# a.pop()
+# print(a)
+# a.pop(2)
+# print(a)
+# #index
+# print(a.index(33))
+# print(a.index(1))
+# #count
+# print(a.count(5))
+# #insert
+# a.insert(0,100)
+# print(a)
+
+#Tuple
+# x=(1,1,2,2,3,3,4,4)
+# print(x)
+# print(type(x))
+# print(x.count(2))
+# print(len(x))
+# print(x.index(3))
+
+#Set
+# y={5,8,1,2,3,4,5,4,3,2,1}
+# print(y)
+# print(type(y))
+# #union,Inter....
+# a={1,2,3,4}
+# b={3,4,5,6}
+# print(a.union(b))
+# print(a.intersection(b))
+# print(a.symmetric_difference(b))
+# print(a.difference(b))
+# print(b.difference(a))
+# #superset & subset
+# x={1,2,3,4,5}
+# y={1,2,3}
+# print(x.issubset(y))
+# print(y.issubset(x))
+# print(x.issuperset(y))
+# print(y.issuperset(x))
+# print(x.isdisjoint(y))
+# #add
+# a={1,3,5,2,3,1}
+# a.add(10)
+# print(a)
+# b=a.copy()
+# print('b:',b)
+# a.remove(5)
+# print(a)
+# a.pop()
+# print(a)
+
+#Dictionary-->{key:Value}
+# a={1:"Keerthi",2:"Hari",3:"Deepak"}
+# print(a)
+# print(type(a))
+# # print(a.pop(3))
+# print(a.keys())
+# print(a.values())
+# print(a.items())
+# a.update({4:"Badriga"})
+# print(a)
+
+#Set+ if-else
+# a = {1, 3, 5, 2, 3, 1}
+# print(a)
+# n=int(input("Enter n"))
+# for i in a:
+#     if i==n:
+#         print("Element found")
+#     else:
+#         print("Not found")
+#     print(i)
+# #List
+# a = [1, 3, 5, 2, 3, 1]
+# print(a)
+# n=int(input("Enter n"))
+# for i in a:
+#     if i==n:
+#         print("Element found")
+#         break
+#     print(i)
+
+# a = {1, 3, 5, 2, 6, 7,1,3,5}
+# for i in a:
+#     if i>5:
+#         print(i)
+#stack
+stack=[]
+stack.append(10)
+stack.append(20)
+stack.append(30)
+print("Stack:",stack)
+stack.pop()
+print("Pop",stack)
+#queue
+queue=[]
+queue.append(10)
+queue.append(20)
+queue.append(30)
+print("Stack:",queue)
+queue.pop(0)
+print("Pop",queue)
