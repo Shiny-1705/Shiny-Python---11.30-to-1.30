@@ -1,0 +1,164 @@
+
+### 🟢 EASY LEVEL
+
+### 1\. List
+
+* Write a program to add an element at the end of a list using `append()`.
+
+* Write a program to add multiple elements to a list using `extend()`.
+
+* Write a program to insert an element at a specific position using `insert()`.
+
+* Write a program to remove a specified element from a list using `remove()`.
+
+* Write a program to remove the last element from a list using `pop()`.
+
+* Write a program to delete all elements from a list using `clear()`.
+
+### 2\. Tuple
+
+* Write a program to count how many times a given element occurs in a tuple using `count()`.
+
+* Write a program to find the index of a specified element in a tuple using `index()`.
+
+* Write a program to display the first, middle, and last elements of a tuple.
+
+* Write a program to reverse a tuple using slicing.
+
+### 3\. Set
+
+* Write a program to add a single element to a set using `add()`.
+
+* Write a program to add multiple elements to a set using `update()`.
+
+* Write a program to remove a specified element from a set using `remove()`.
+
+* Write a program to remove an element from a set using `discard()`.
+
+* Write a program to remove and display any one element from a set using `pop()`.
+
+* Write a program to delete all elements from a set using `clear()`.
+
+### 4\. Dictionary
+
+* Write a program to retrieve a student's mark using `get()`.
+
+* Write a program to display all keys in a dictionary using `keys()`.
+
+* Write a program to display all values in a dictionary using `values()`.
+
+* Write a program to display all key-value pairs using `items()`.
+
+* Write a program to add a new key-value pair to a dictionary.
+
+* Write a program to update the value of an existing key in a dictionary.
+
+### 🟡 MEDIUM LEVEL
+
+### 1\. List
+
+* Write a program to find the position of an element using `index()`.
+
+* Write a program to count the occurrences of a given element using `count()`.
+
+* Write a program to sort a list in ascending order using `sort()`.
+
+* Write a program to sort a list in descending order using `sort()`.
+
+* Write a program to reverse a list using `reverse()`.
+
+* Write a program to merge two lists using `extend()` and sort the merged list.
+
+### 2\. Tuple
+
+* Write a program to combine two tuples using concatenation.
+
+* Write a program to repeat the elements of a tuple three times using the repetition operator.
+
+* Write a program to find the common elements between two tuples.
+
+* Write a program to separate even and odd numbers from a tuple into two different tuples.
+
+### 3\. Set
+
+* Write a program to find the union of two sets using `union()`.
+
+* Write a program to find the common elements of two sets using `intersection()`.
+
+* Write a program to find the elements present in the first set but not in the second set using `difference()`.
+
+* Write a program to find elements present in either set but not in both using `symmetric_difference()`.
+
+* Write a program to check whether one set is a subset of another using `issubset()`.
+
+* Write a program to check whether one set is a superset of another using `issuperset()`.
+
+* Write a program to check whether two sets have no common elements using `isdisjoint()`.
+
+### 4\. Dictionary
+
+* Write a program to remove a specified key from a dictionary and return its value using `pop()`.
+
+* Write a program to remove the last inserted item using `popitem()`.
+
+* Write a program to add multiple key-value pairs using `update()`.
+
+* Write a program to add a default value to a key using `setdefault()`.
+
+* Write a program to create a copy of a dictionary using `copy()`.
+
+### 🔴 HARD LEVEL
+
+### 1\. List
+
+* Write a program to find the second-largest number in a list without using `sort()` or `max()`.
+
+* Write a program to find all duplicate elements in a list without using `count()`.
+
+* Write a program to rotate a list three positions to the left using slicing.
+
+* Write a program to remove duplicate elements from a list without using `set()`.
+
+### 2\. Tuple
+
+* Write a program to find the third-largest unique number in a tuple without converting it into a list.
+
+* Write a program to merge two tuples, sort the elements in ascending order, and convert the result back into a tuple.
+
+* Write a program to remove a given element from a tuple by converting it into a list and back into a tuple.
+
+### 3\. Set
+
+* Write a program to find the common elements among three sets.
+
+* Write a program to find the unique elements from two sets without using `union()`.
+
+* Write a program to remove duplicate elements from a list using a set and convert the result back into a list.
+
+### 4\. Dictionary
+
+* Write a program to create a dictionary of 5 subjects with a default value of `0` using `fromkeys()`.
+
+* Write a program to count the frequency of each word in a sentence using a dictionary.
+
+* Write a program to find the student who scored the highest mark from a dictionary of student names and marks.
+
+* Write a program to create a nested dictionary containing 5 students' names, marks, and departments, and find the topper.
+
+* Write a program to create a product inventory dictionary and perform add, update, delete, and display operations.
+
+### 🔹 Slicing – Practice Questions
+
+* Write a program to display the first 5 elements of a list using slicing.
+
+* Write a program to display the last 5 elements of a list using slicing.
+
+* Write a program to reverse a list and a string using slicing.
+
+* Write a program to display alternate elements from a list using step slicing.
+
+* Write a program to extract elements from index 2 to index 7 using slicing.
+
+* Write a program to divide a list into two halves using slicing.
+
+* Write a program to rotate a list to the right by 2 positions using slicing.
