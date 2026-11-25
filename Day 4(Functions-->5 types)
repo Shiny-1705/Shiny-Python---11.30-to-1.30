@@ -1,0 +1,148 @@
+-----pre-defined-----
+# print("Hiii")
+# print(len("Kerthi"))
+# print(max(50,30,20,))
+# print(min(50,30,20,))
+
+-----User-define Function-----
+# def hari():
+#     print("Hello Raj")
+# hari()
+# #add
+# def add():
+#     a=10
+#     b=20
+#     print("Add:",a+b)
+# add()
+
+#Without argumnt
+# def hari():
+#     print("Hello Raj")
+# hari()
+#
+# #with argument
+# def add(a,b):
+#     print("ADD:",a*b)
+# add(5,6)
+
+# Name
+# def name(name):
+#     print("Name:",name)
+# name("Badriga")
+
+# def+ if-else
+# def check(n):
+#     if n%2==0:
+#         print(n,"is Even")
+#     else:
+#         print(n,"is odd")
+# check(5)
+# check(50)
+
+#Exponential
+# def expo(n):
+#     print("Expo",n**2)
+# expo(5)
+
+# Positional
+# def student(name,course):
+#     print("Name:",name)
+#     print("Course:",course)
+# student("Python","Keerthi")
+
+#Keyword
+# def student(name,course):
+#     print("Name:",name)
+#     print("Course:",course)
+# student(course="Python",name="Keerthi")
+
+# Default
+# def student(name="Hari"):
+#     print("Name:",name)
+# student("Badriga")
+# student()
+
+# VAriable-->*arg
+# def add(*num):
+#     total=0
+#     for i in num:
+#         total+=i
+#     print("Total:",total)
+# add(20)
+# add(20,30)
+# add(20,30,40,50)
+
+# **kwargs
+# def student(**items):
+#     for keys,value in items.items():
+#         print(keys,':',value)
+# student(name="Deepak",age=19,course="Python",area="Salem")
+
+#return
+#Exponential
+# def expo(n):
+#     return n**2
+# print(expo(5))
+# #add
+# def add(a,b):
+#     return a+b
+# print(add(5,2))
+
+#Print 5 to 1
+# def name(n):
+#     if n==0:
+#         return
+#     print("Raj")
+#     name(n-1)
+# name(5)
+
+# 1 to 10
+# def name(n):
+#     if n==11:
+#         return
+#     print("Deepak")
+#     name(n+1)
+# name(1)
+
+#Without lambda
+# def add(a,b):
+#     return a+b
+# print(add(5,2))
+
+-------Lambda------------
+# a=lambda x,y:x+y
+# print(a(5,3))
+# #Lambda+string
+# a=lambda x:x.capitalize()
+# print(a("deepak"))
+# #Expo
+# a=lambda x:x**2
+# print(a(5))
+# # lambda+if else
+# a=lambda x:"Even" if x%2==0 else "Odd"
+# print(a(5))
+# print(a(52))
+
+# Largest of 2 nos
+# n=lambda a,b:"Largest" if a>b else "Smallest"
+# print(n(5,2))
+# print(n(1,3))
+
+# filter
+# Filter even numbers
+# a=[1,2,3,4,5,6,7,8]
+# even=list(filter(lambda x:x%2==0,a))
+# print(even)
+#
+# a=["Deepak","Deeven","Har","Keerthi"]
+# letters=list(filter(lambda y:y.startswith("D"),a))
+# print(letters)
+
+#Mapping
+# a=[1,2,3,4,5,6,7,8]
+# even=list(map(lambda x:x*2,a))
+# print(even)
+# 
+# a=["Deepak","Deeven","Har","Keerthi"]
+# letters=list(map(lambda y:y.swapcase(),a))
+# print(letters)
