@@ -1,0 +1,165 @@
+## 1\. Predefined Functions
+
+Use Python's built-in functions.
+
+* Find the length of a string using `len()`.
+
+* Find the largest of three numbers using `max()`.
+
+* Find the smallest number in a list using `min()`.
+
+* Calculate the sum of all elements using `sum()`.
+
+* Sort a list using `sorted()`.
+
+* Convert a string into uppercase using `upper()`.
+
+* Convert a string into lowercase using `lower()`.
+
+* Count the number of vowels in a string using `count()`.
+
+* Find the absolute value of a negative number using `abs()`.
+
+* Remove duplicate values from a list using `set()`.
+
+### 2\. User-Defined Functions
+
+Use the `def` keyword to create your own functions.
+
+* Create a function to add two numbers.
+
+* Create a function to find the area of a rectangle.
+
+* Create a function to check whether a number is even or odd.
+
+* Create a function to find the largest of three numbers.
+
+* Create a function to calculate simple interest.
+
+* Create a function to check whether a person is eligible to vote.
+
+* Create a function to find the factorial of a number using a loop.
+
+* Create a function to check whether a number is prime.
+
+* Create a function to reverse a string.
+
+* Create a function to check whether a string is a palindrome.
+
+### 3\. Recursion
+
+Write programs using a function that calls itself.
+
+* Print your name 5 times using recursion.
+
+* Print numbers from 1 to 10.
+
+* Print numbers from 10 to 1.
+
+* Print even numbers from 2 to 20.
+
+* Print odd numbers from 1 to 19.
+
+* Find the sum of the first N natural numbers.
+
+* Find the factorial of a number.
+
+* Find the power of a number (2³ = 8).
+
+* Find the sum of digits of a number.
+
+* Find the Fibonacci series using recursion.
+
+### 4\. Lambda Functions
+
+Use the `lambda` keyword.
+
+* Find the sum of two numbers.
+
+* Find the difference between two numbers.
+
+* Find the product of two numbers.
+
+* Find the square of a number.
+
+* Find the cube of a number.
+
+* Check whether a number is even or odd.
+
+* Find the largest of two numbers.
+
+* Calculate the area of a rectangle.
+
+* Calculate simple interest.
+
+* Convert Celsius into Fahrenheit.
+
+### 5\. Mapping – map()
+
+Use `map()` to perform an operation on every element.
+
+* Find the square of every number in a list.
+
+* Find the cube of every number in a list.
+
+* Multiply every number in a list by 5.
+
+* Add 10 to every element in a list.
+
+* Convert all names into uppercase.
+
+* Convert all names into lowercase.
+
+* Convert a list of strings into integers.
+
+* Convert a list of temperatures from Celsius to Fahrenheit.
+
+* Find the length of every word in a list.
+
+* Add two lists element by element.
+
+### 6\. Filtering – filter()
+
+Use `filter()` to select elements based on a condition.
+
+* Filter all even numbers from a list.
+
+* Filter all odd numbers from a list.
+
+* Find numbers greater than 10.
+
+* Find numbers less than 50.
+
+* Filter positive numbers from a list.
+
+* Filter negative numbers from a list.
+
+* Find all numbers divisible by 5.
+
+* Filter names starting with the letter 'A'.
+
+* Filter words having more than 5 characters.
+
+* Filter students who scored more than 50 marks.
+
+### 7\. Combined Practical Challenges
+
+Challenge Level
+
+These questions combine multiple concepts.
+
+* Use a user-defined function with lambda to find the square of a number.
+
+* Use `map()` and lambda to calculate the square of even numbers in a list. (First filter, then map.)
+
+* Use `filter()` and lambda to find prime-number candidates from a list.
+
+* Use a user-defined function to calculate the total and average marks of five students.
+
+* Use recursion to reverse a string.
+
+* Use `map()` to convert student marks into grades.
+
+* Use `filter()` to find employees whose salary is above ₹25,000.
+
+* Use lambda with `sorted()` to arrange students according to their marks.
