@@ -1,0 +1,89 @@
+# Build-in-modules
+# math
+# import math
+# print(math.pi)
+# print(math.factorial(5))
+# print(math.factorial(2))
+# print(math.sin(1))
+# print(math.sin(90))
+# print(math.lcm(5,2))
+# print(math.floor(5.2))
+# print(math.ceil(5.2))
+# print(math.tan(20))
+# print(math.remainder(10,2))
+# print(math.pow(5,2))
+# print(math.sqrt(2))
+
+#random
+# import random as r
+# print(r.random())
+# print(r.randint(1,10))
+# print(r.randrange(0,20,5))
+# # List
+# a=["Deepak","Raj","Badriga","Hari","Keerthi"]
+# print(r.choice(a))
+
+# time
+# import time as t
+# print(t.ctime())
+# print(t.strftime("%Y"))
+# print(t.strftime("%Y-%M"))
+# print(t.strftime("%Y-%m-%D"))
+# print(t.strftime("%S-%M-%H"))
+# print("Hari")
+# # t.sleep(5)
+# print("Deepak")
+
+# Pywhatkit
+# import pywhatkit as pk
+# print(pk.sendwhatmsg("+919043673017","Hiii",12,36))
+# print(pk.sendwhatmsg_instantly("+919043673017","Hiii"))
+# print(pk.playonyt("Avenger movie trailer"))
+# print(pk.search("Python"))
+# print(pk.info("Taj mahal",lines=10))
+# print(pk.show_history())
+
+# datetime
+# import datetime as dt
+# now = dt.datetime.now()
+# print(now)
+# print(now.date())
+# print(now.strftime("%d-%m-%y"))
+# print(now.strftime("%H-%M-%S"))
+# print(now.ctime())
+# print(now.microsecond)
+# print(now.weekday())
+
+# calendar
+# import calendar as c
+# print(c.calendar(2026))
+# print(c.month(2026,11))
+# print(c.isleap(2026))
+# print(c.isleap(2024))
+# print(c.weekday(2026,11,27))
+# print(c.monthcalendar(2026,11))
+# print(c.month_name[2])
+# print(c.month_name[11])
+# print(c.monthrange(2026,11))
+# print(c.leapdays(2020,2023))
+
+# web browser--->url
+import webbrowser as wb
+# print(wb.open("http://google.com"))
+# print(wb.open_new("http://hackerrank.com"))
+# print(wb.open_new_tab("http://hackerrank.com"))
+
+# os
+# import os
+# print(os.getcwd())
+# os.mkdir("C:\\user\\hello.txt")
+# print("File created")
+# os.rename("hello.txt","keerthi.txt")
+# print("Renamed")
+
+# Pillow-->PIL
+from PIL import Image
+a=Image.open(r"C:\Users\Jenifer\Pictures\Screenshots\R (1).jpg")
+#a.save("Image")
+b=a.rotate(90)
+b.show()
